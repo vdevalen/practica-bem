@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metodología BEM</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<!--https://www.youtube.com/watch?v=bvnzyXGkNY4-->
+	<!--bloques, elementos y modificadores-->
+	<!--BLOQUES: componetes del sitio que quremos reutilizar en alguna otra parte de la paggina -->
+	<!--dentro del BLOQUE se tienen ELEMENTOS como imagenes o titulo, texto o botones-->
+	<div class="contenedor">
+		<!--BLOQUE-->
+		<div class="card"> 
+			<a href="#" class="card__enlace"> <!--este es un elemento de la carta el enlace-->
+			<img class="card__img" src="img/1.jpg" alt=""> <!--PONERLE A TODOS LOS ELEMNTOS A UNA CLASE-->
+			</a>
+			<div class="card__textos">
+				<h3 class="card__titulo">
+					<a href="" class="card__enlace-titulo">Lorem ipsum dolor sit ame</a>
+				</h3>
+				<p class="card__extracto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, optio. Eum est veritatis expedita modi numquam consectetur molestias iste corporis incidunt! Laborum
+				quis corporis obcaecati quod, minus perferendis quae omnis.</p>
+		<!--BLOQUE-->
+				<a href="#" class="boton boton--aubsoluto boton-verde">
+					<span class="boton__texto">Ver más</span>
+					<i class="boton__icono fas fa-arrow-right"></i>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="frase">
+			<h2 class="frase__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo iste </h2>
+			<a href="" role="boton" class="boton boton--verde" >
+				<span class="boton__texto"> Texto</span>
+				<i class="fas fa-shopping-cart"></i>
+			</a>
+		</div>
+	</div>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

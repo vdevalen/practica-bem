@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #F6F6FE;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.card{
+	background: color; /*color de fondo*/
+	border-radius: 15px; /*borde en las esquinas*/
+	padding: 20px; /*es el espacio entre el contenido del elemento y su borde ( border )*/
+	display: flex; /*capacidad de un elemento flexible para poder tener texto y fotos en el mismo codigo*/
+	align-items: center; /*centra los elementos*/
+	position: relative; /*su posición dependerá del lugar donde esté en el código, para acomodar los codigos donde queramos*/
+	margin-bottom: 50px;
+}
+
+.card__enlace{
+	width: 650px;
+	height: 200px;
+	margin-right: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	display: inline-block; /*enlace*/
+}
+
+.card__img{
+	width: 100%;
+}
+
+.card__titulo{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.card__enlace-titulo{
+	color: #000;
+}
+
+.card__extracto{
+	line-height: 28px;
+	color: #6d6d6d;
+	margin-bottom: 20px;
+}
+
+.boton{
+	border: none;
+	min-width: 1/80px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: white;
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403CC2;
+	transition: .03 ease all;
+}
+
+.boton__textos{
+	font-weight:  600;
+
+}
+
+.boton:hover{
+	background: #181881;
+	text-decoration: none;
+}
+
+.boton__absolute{
+	padding: absolute;
+	right: 20psx;
+	bottom: -25px;
+}
+
+.frase{
+	text-align: center;
+	margin: 70px 0px;
+}
+
+.frase__textos{
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+}
